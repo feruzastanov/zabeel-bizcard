@@ -64,28 +64,47 @@ export default function Home() {
 
             {/* Right side - Contact information */}
             <div className="flex-1 flex items-center justify-center w-full md:h-80 lg:h-96">
-              <div className="text-white space-y-3 text-center">
-                <div className="flex items-center justify-center space-x-2">
-                  <span className="text-xs lg:text-sm">+971528333533</span>
-                  <Phone className="w-4 h-4" />
-                </div>
-                <div className="flex items-center justify-center space-x-2">
-                  <span className="text-xs lg:text-sm">
-                    zabeel@emirates.net.ae
+              <div className="text-white space-y-5 text-left max-w-md">
+                <div className="flex flex-col">
+                  <span className="text-sm font-medium mb-1">
+                    Contact Landline Number
                   </span>
-                  <Mail className="w-4 h-4" />
+                  <div className="flex items-center space-x-2">
+                    <span className="text-sm">+971 4 3345656</span>
+                  </div>
                 </div>
-                <div className="flex items-center justify-center space-x-2">
-                  <span className="text-xs lg:text-sm">
-                    zabeelconsultancy@gmail.com
+
+                <div className="flex flex-col">
+                  <span className="text-sm font-medium mb-1">
+                    E-mail Address
                   </span>
-                  <Mail className="w-4 h-4" />
+                  <div className="flex items-center space-x-2">
+                    <span className="text-sm">zabeell@emirates.net.ae</span>
+                  </div>
                 </div>
-                <div className="flex items-center justify-center space-x-2">
-                  <span className="text-xs lg:text-sm">
-                    PYRAMID CENTRE OFFICE 313A DUBAI-U.A.E
+
+                <div className="flex flex-col">
+                  <span className="text-sm font-medium mb-1">
+                    Office Address
                   </span>
-                  <MapPin className="w-4 h-4" />
+                  <div className="flex items-start space-x-2">
+                    <div className="flex flex-col">
+                      <span className="text-sm">
+                        Villa 45 Al Bastakia Department Store
+                      </span>
+                      <span className="text-sm">
+                        Al Fahidi Historical Neighbourhood
+                      </span>
+                      <span className="text-sm">Bur Dubai-U.A.E</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex flex-col">
+                  <span className="text-sm font-medium mb-1">P.O. Box</span>
+                  <span className="text-sm">
+                    55611 Dubai, United Arab Emirates
+                  </span>
                 </div>
               </div>
             </div>
@@ -110,30 +129,32 @@ export default function Home() {
               {/* Description paragraphs */}
               <div className="space-y-4 text-sm lg:text-base leading-relaxed text-left">
                 <p>
-                  Fuad is the CEO of Zabeel Management & Marketing Consultancy,
-                  established in the UAE in 2002 and a member of the Mohammed
-                  Bin Rashid Est for SME Development.
+                  In UAE, Zabeel Management & Marketing Consultancy was founded
+                  in 1995 and has grown into a consistent business partner with
+                  more than 88 companies providing services in the Industry,
+                  Contracting, Medical, Commercial, Financial Solutions, Banking
+                  Solutions, Database Systems Design, Travel Agency, Farming of
+                  Sheeps and Goats, Valet Parking Services, General Trading,
+                  Legal Services, Foodstuff Trading, Commercial Brokerage, Goods
+                  Wholesalers, Yachts Rental, Readymade Garments Trading ,
+                  Virtual Assets Broker & Dealer Services, Department Store,
+                  Mobile Phones & Accessories Trading Import and Export,
+                  Recruitments, as well as our Management & Marketing
+                  Consultancy.
                 </p>
 
                 <p>
-                  Over the years, Zabeel has grown into a trusted business
-                  partner for over 88 companies, offering services in sectors
-                  such as industry, medical, financial solutions, investment,
-                  media, farming, legal, trading, and consultancy.
+                  Our dynamic team is committed to assist in your organization
+                  in changing strategies, processes, systems and staff to enable
+                  your business to achieve performance improvement, growth and
+                  diversity in a competitive global environment.
                 </p>
 
                 <p>
-                  Their expert team helps businesses redefine strategies,
-                  improve processes, and implement systems for growth and
-                  competitive success.
-                </p>
-
-                <p>
-                  Zabeel has signed several agreements with the UAE government
-                  and provides consultancy and marketing services both locally
-                  and internationally. The company is known for its dynamic
-                  approach in adapting to the evolving global business
-                  environment, ensuring a successful future for its clients.
+                  We specialized in helping businesses to help themselves by
+                  accurately defining corporate strategies and communicating the
+                  strategies to you, and assist in implementing them for a more
+                  exciting and successful future for your organization.
                 </p>
               </div>
             </div>
